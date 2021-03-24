@@ -1,8 +1,5 @@
 module.exports = {
-  purge: [
-    './components/**/*.jsx',
-    './pages/**/*.jsx',
-  ],
+  purge: ['./components/**/*.jsx', './pages/**/*.jsx'],
   theme: {
     screens: {
       iphone6: '320px',
@@ -63,6 +60,10 @@ module.exports = {
         96: '24rem',
         112: '28rem',
         128: '32rem',
+        '1/1': '100%',
+      },
+      filter: {
+        blur: 'blur(8px)',
       },
     },
   },
@@ -71,4 +72,4 @@ module.exports = {
     borderStyle: ['responsive', 'last', 'first'],
   },
   plugins: [],
-}
+};
